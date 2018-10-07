@@ -34,7 +34,7 @@ namespace IridiumToolsPatch
     {
         static public void Postfix(ref List<Vector2> __result, Vector2 tileLocation, int power, Farmer who)
         {
-            if (power >= 5)
+            if (power == 5)
             {
                 __result.Clear();
                 Vector2 direction;
